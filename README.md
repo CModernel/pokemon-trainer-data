@@ -91,7 +91,7 @@ Y el `LICENSE` file (MIT):
 ```
 MIT License
 
-Copyright (c) 2025 [Tu nombre]
+Copyright (c) 2025 Christian Modernel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
