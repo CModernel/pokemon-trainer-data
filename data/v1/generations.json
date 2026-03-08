@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "label": "Gen I",
+    "number": 1,
+    "region": "Kanto",
+    "range": "1–151"
+  },
+  {
+    "id": 2,
+    "label": "Gen II",
+    "number": 2,
+    "region": "Johto",
+    "range": "152–251"
+  },
+  {
+    "id": 3,
+    "label": "Gen III",
+    "number": 3,
+    "region": "Hoenn",
+    "range": "252–386"
+  },
+  {
+    "id": 4,
+    "label": "Gen IV",
+    "number": 4,
+    "region": "Sinnoh",
+    "range": "387–493"
+  },
+  {
+    "id": 5,
+    "label": "Gen V",
+    "number": 5,
+    "region": "Unova",
+    "range": "494–649"
+  },
+  {
+    "id": 6,
+    "label": "Gen VI",
+    "number": 6,
+    "region": "Kalos",
+    "range": "650–721"
+  },
+  {
+    "id": 7,
+    "label": "Gen VII",
+    "number": 7,
+    "region": "Alola",
+    "range": "722–809"
+  },
+  {
+    "id": 8,
+    "label": "Gen VIII",
+    "number": 8,
+    "region": "Galar",
+    "range": "810–905"
+  },
+  {
+    "id": 9,
+    "label": "Gen IX",
+    "number": 9,
+    "region": "Paldea",
+    "range": "906–1025"
+  }
+]

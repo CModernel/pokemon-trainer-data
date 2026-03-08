@@ -1,0 +1,37 @@
+# .github/workflows/update-data.yml
+name: Update Pokemon Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # todos los días a las 6am UTC
+  workflow_dispatch:        # también manual desde GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo público (JSONs)
+        uses: actions/checkout@v4
+        with:
+          repository: tuusuario/pokemon-trainer-data-public
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run update script
+        run: node generate-pokemon-data.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add pokemon-data.json
+          git diff --staged --quiet && echo "No changes" || (git commit -m "Auto-update $(date +%Y-%m-%d)" && git push)
+
+
+##
+#Primera vez (local): descarga los 1025 → ~10 min
+#GitHub Actions (diario): detecta 0 nuevos → termina en 5 segundos
+#Si mañana hay 1 nuevo: descarga solo ese 1 → ~3 segundos
