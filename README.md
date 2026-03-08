@@ -8,7 +8,7 @@ game data (abilities, moves, items).
 
 ## 📁 Structure
 
-\`\`\`
+```
 pokemon-trainer-data/
   data/
     v1/
@@ -18,7 +18,7 @@ pokemon-trainer-data/
       moves.json            ← Curated competitive moves (coming soon)
       items.json            ← Curated competitive items (coming soon)
     latest.json             ← Version manifest for app update checks
-\`\`\`
+```
 
 ---
 
@@ -29,13 +29,13 @@ The script fetches from [PokéAPI](https://pokeapi.co) and commits
 any changes automatically.
 
 ### latest.json format
-\`\`\`json
+```json
 {
   "latestDataVersion": 1,
   "minAppVersion": "1.0.0",
   "changelog": "Initial release"
 }
-\`\`\`
+```
 
 ---
 
@@ -43,10 +43,10 @@ any changes automatically.
 
 All files are accessible via jsDelivr CDN:
 
-\`\`\`
+```
 https://cdn.jsdelivr.net/gh/USERNAME/pokemon-trainer-data@main/data/v1/pokemon-data.json
 https://cdn.jsdelivr.net/gh/USERNAME/pokemon-trainer-data@main/data/v1/generations.json
-\`\`\`
+```
 
 ---
 
