@@ -65,6 +65,14 @@ This project is not affiliated with or endorsed by any of these companies.
 
 ---
 
+## 🤝 Contributing
+
+This repo is auto-maintained via GitHub Actions.
+Manual additions (abilities, moves, items JSONs) follow the same
+versioned structure under \`data/v{N}/\`.
+
+---
+
 ## ⚠️ Disclaimer
 
 This is a fan-made project and is not affiliated with, endorsed by,
@@ -80,16 +88,7 @@ and content will be removed promptly.
 
 ---
 
-## 🤝 Contributing
-
-This repo is auto-maintained via GitHub Actions.
-Manual additions (abilities, moves, items JSONs) follow the same
-versioned structure under \`data/v{N}/\`.
-```
-
-Y el `LICENSE` file (MIT):
-```
-MIT License
+## MIT License
 
 Copyright (c) 2025 Christian Modernel
 
