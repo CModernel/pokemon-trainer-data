@@ -1,0 +1,90 @@
+{
+  "_comment": "Attack-type mnemonics. Each entry is: attacker -> { defender: 'mnemonic string' }. Format: '[Attacker] can [verb] [defender]'",
+  "fighting": {
+    "normal": "Fighters beat up the Normal kid (high school brawl)",
+    "rock": "Fighters can crack Rock apart",
+    "steel": "Superheroes smash Steel structures",
+    "ice": "Fighters can smash Ice",
+    "dark": "Fighters don't fear the Dark"
+  },
+  "flying": {
+    "fighting": "Flying can stay out of Fighting's reach",
+    "bug": "Birds swoop down and eat Bugs",
+    "grass": "Wind and tornados flatten Grass"
+  },
+  "poison": {
+    "grass": "Poison contaminates Grass",
+    "fairy": "Toxic waste corrupts Fairy's purity"
+  },
+  "ground": {
+    "poison": "Earth buries and neutralizes Poison",
+    "rock": "Erosion wears down Rock",
+    "steel": "Earthquakes collapse Steel structures",
+    "fire": "Dirt smothers Fire",
+    "electric": "Ground can neutralize Electric"
+  },
+  "rock": {
+    "flying": "Two birds with one stone",
+    "bug": "Rock squashes Bug",
+    "fire": "Rocks and landslides smother Fire",
+    "ice": "Rock shatters Ice on impact"
+  },
+  "bug": {
+    "grass": "Insects devour Grass and crops",
+    "psychic": "Bug phobia breaks a Psychic's concentration",
+    "dark": "Bugs thrive in the Dark"
+  },
+  "ghost": {
+    "ghost": "Only a Ghost can haunt another Ghost",
+    "psychic": "Ghosts invade and shatter the Psychic mind"
+  },
+  "steel": {
+    "rock": "Steel pickaxe grinds through Rock",
+    "ice": "Steel blade shatters Ice",
+    "fairy": "Iron and steel trap Fairies (Celtic mythology)"
+  },
+  "fire": {
+    "bug": "Fire can burn bugs",
+    "steel": "Fire can melt steel",
+    "grass": "Fire can burn Grass",
+    "ice": "Fire can melt Ice"
+  },
+  "water": {
+    "ground": "Water washes away Ground",
+    "rock": "Water erodes Rock over time",
+    "fire": "Water extinguishes Fire"
+  },
+  "grass": {
+    "ground": "Roots grow deep into the Ground",
+    "rock": "Roots crack Rock over time",
+    "water": "Plants absorb Water to grow"
+  },
+  "electric": {
+    "flying": "Lightning strikes Flying objects",
+    "water": "Electricity travels through Water"
+  },
+  "psychic": {
+    "fighting": "Mind over matter beats brute force",
+    "poison": "Psychic foresight detects and avoids Poison"
+  },
+  "ice": {
+    "flying": "Blizzards freeze Flying mid-air",
+    "ground": "Permafrost freezes and cracks the Ground",
+    "grass": "Frost kills Grass",
+    "dragon": "Even dragons can't survive a blizzard"
+  },
+  "dragon": {
+    "dragon": "Only a Dragon can match another Dragon"
+  },
+  "dark": {
+    "ghost": "Dark sorcerers command and banish Ghosts",
+    "psychic": "Fear of the Dark is every Psychic's weakness"
+  },
+  "fairy": {
+    "fighting": "Magic defeats brute force",
+    "dragon": "Fairy magic defeats mythical creatures (fairytales)",
+    "dark": "Fairy light purifies the Dark"
+  },
+  "normal": {},
+  "poison_note": "Note: Normal and Poison have no super-effective attacking matchups included here."
+}
